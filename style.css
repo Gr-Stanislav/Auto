@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* HEADER--------------------- */
+header {
+    width: 100%;
+    padding: 15px;
+    /* background-color: #12151d; */
+    background-color: #040404;
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    background-image: url("./image/logo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 15%;
+    height: 70px;
+    border-radius: 7px;
+}
+
+.time_work {
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.time_work svg {
+    position: absolute;
+    width: 20px;
+    top: -2px;
+    left: -29px;
+}
+
+#location {
+    position: absolute;
+    width: 23px;
+    top: 30px;
+    left: -31px;
+}
+
+.cantry {
+    display: flex;
+    align-items: center;
+}
+
+.cantry button {
+    background-color: #ee8006;
+    color: white;
+    font-weight: bolder;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    transition: 0.3s all;
+}
+
+.cantry button:hover {
+    background-color: rgb(199, 98, 3);
+}
+
+/* .cantry button:nth-child(2) {
+    background-color: #0071bc;
+}
+
+.cantry button:nth-child(2):hover {
+    background-color: #2165a9;
+} */
+
+.number {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.number a {
+    text-decoration: none;
+    color: white;
+}
+
+.number svg {
+    position: absolute;
+    width: 15px;
+    top: 23px;
+    left: -25px;
+}
+
+.sotial_mesege {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon_svg {
+    width: 25px;
+    fill: white;
+    margin-left: 1.3rem;
+    transition: 0.3s all;
+}
+
+.icon_svg:hover {
+    fill: #ee8006;
+}
+
+.facebook {
+    height: 25px;
+}
+
+
+/* FON_HEADER------------------------ */
+.fon_header {
+    background-image: linear-gradient(to top, #12151d4b, rgba(255, 255, 255, 0.335)), url("./image/porsche-g7baec3e42_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fon_content {
+    
+}
+
+.fon_content h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.fon_content h2 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.fon_content p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.fon_FORM {
+    min-width: 50px;
+    padding: 10px;
+    background-color: #bfc3caba;
+    border-radius: 10px;
+    position: relative;
+}
+
+.fon_FORM span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fon_FORM input {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: none;
+}
+
+.fon_FORM button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    background-color: #ee8006;
+    color: white;
+    transition: 0.3s all;
+}
+
+.fon_FORM button:hover {
+    background-color: rgb(199, 98, 3);
+}
+
+.post_form {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+}
+
+.post_form h2 {
+    font-size: 1.5rem;
+}
+
+.qqq {
+    color: #ee8006;
+}
+
+
+/* BLOCK ACREDITATION---------------------- */
+.acriditation {
+    background-color: #f5faff;
+    width: 100%;
+    padding: 15px;
+    padding-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.acriditation p {
+    margin-right: 6%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #29375c;
+}
+
+.acriditation_head_text {
+    width: 100%;
+    padding-left: 7%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.acriditation_head_text h2 {
+    font-size: 3rem;
+    color: #29375c;
+    font-weight: 800;
+    position: relative;
+    z-index: 3;
+}
+
+.acriditation_mini_block {
+    width: 100%;
+    background-color: #f5faff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.acriditation__menu {
+    width: 45%;
+    margin-left: 6%;
+    position: relative;
+    z-index: 4;
+}
+
+.top_block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 7%; */
+}
+
+.bottom_block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 7%; */
+}
+
+.item_block {
+    /* border: 1px solid #d2dce8; */
+    border: 1px solid #3e6ba2;
+    border-radius: 10px;
+    width: 45%;
+    /* width: 23%; */
+    /* min-width: 300px; */
+    padding: 10px;
+    margin: 0.6rem;
+    transition: 0.2s;
+}
+
+.item_block:hover {
+    background-color: #29375c6e;
+}
+
+.item_block svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.item_block h4 {
+    font-size: 1.3rem;
+    color: #29375c;
+    width: 100%;
+    text-align: center;
+}
+
+.btn_inform {
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 2rem;
+    transition: 0.5s ;
+}
+
+.btn_inform:hover {
+    background-color: #29375c;
+}
+
+.fon_acreditation {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+    height: 148%;
+    background-image:linear-gradient(to left, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.282)), url("./image/acreditation_fon.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+/* Как мы работаем--------------------- */
+.work {
+    width: 86%;
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgba(202, 208, 213, 0.326);
+    /* background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.157)), url("./image/work_fon.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.work h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.work__content {
+    display: flex;
+    justify-content: center;
+}
+
+.left_block, .center_block, .right_block {
+    width: 33%;
+}
+
+.left_block {
+    text-align: right;
+}
+
+.left_block_item, .right_block_item {
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 50px;
+    min-height: 200px;
+}
+
+.zagolovok {
+    position: relative;
+}
+
+.zagolovok h4 {
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #29375c;
+}
+
+.zagolovok p {
+    font-weight: 500;
+    color: #32456d;
+}
+
+.zagolovok .icon {
+    width: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.left_block_item .icon {
+    right: -100px;
+}
+
+.right_block_item .icon {
+    left: -100px;
+}
+
+.icon_center {
+    width: 40px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.icon_doroga_left img {
+    
+}
+
+.icon svg {
+    /* display: inline-block;
+    width: 100%; */
+}
+
+.hidden {
+    display: none;
+}
