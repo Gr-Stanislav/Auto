@@ -354,7 +354,7 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 10px;
-    background-color: rgba(202, 208, 213, 0.326);
+    background-color: #eef5ff;
     /* background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.157)), url("./image/work_fon.jpeg");
     background-repeat: no-repeat;
     background-size: cover; */
@@ -375,6 +375,51 @@ header {
 .left_block, .center_block, .right_block {
     width: 33%;
 }
+/* Эксперемент с дорогами-------------- */
+.center_block {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 24px;
+    padding-top: 3rem;
+    padding-bottom: 16%;
+    position: relative;
+}
+
+.block_dorogi {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 25px;
+    background-color: #c6d2e0;
+    display: flex;
+    justify-content: center;
+}
+
+.punktir {
+ height: 100%;
+ /* width: 6px;
+ border-right: 2px solid white; */
+ border-left: 2px dashed white;
+}
+
+.bottom_doroga {
+    position: absolute;
+    width: 90%;
+    height: 25px;
+    background-color: #c6d2e0;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.horizont {
+    width: 100%;
+    border-top: 2px dashed white;
+}
+
+
+
 
 .left_block {
     text-align: right;
@@ -410,6 +455,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     position: absolute;
+    z-index: 2;
 }
 
 .left_block_item .icon {
