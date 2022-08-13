@@ -29,6 +29,7 @@ header {
     justify-content:space-around;
     position: fixed;
     z-index: 10;
+    border-bottom: 1px solid #ee8006;
 }
 
 .logo {
@@ -146,7 +147,9 @@ header {
 }
 
 .fon_content {
-    
+    /* border: 2px solid white; */
+    position: relative;
+    top: 13%;
 }
 
 .fon_content h1 {
@@ -227,7 +230,7 @@ header {
 
 /* BLOCK ACREDITATION---------------------- */
 .acriditation {
-    background-color: #f5faff;
+    background-color: #313436;
     width: 100%;
     padding: 15px;
     padding-left: 7%;
@@ -238,9 +241,9 @@ header {
 
 .acriditation p {
     margin-right: 6%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    color: #29375c;
+    color: #eeeff4;
 }
 
 .acriditation_head_text {
@@ -288,7 +291,7 @@ header {
 }
 
 .item_block {
-    /* border: 1px solid #d2dce8; */
+    /* border: 1px solid #e2db21; */
     border: 1px solid #3e6ba2;
     border-radius: 10px;
     width: 45%;
@@ -301,6 +304,7 @@ header {
 
 .item_block:hover {
     background-color: #29375c6e;
+    /* background-color: rgb(199, 98, 3); */
 }
 
 .item_block svg {
@@ -317,7 +321,7 @@ header {
 }
 
 .btn_inform {
-    background-color: red;
+    background-color: #ee8006;
     text-align: center;
     color: white;
     width: 80%;
@@ -330,7 +334,7 @@ header {
 }
 
 .btn_inform:hover {
-    background-color: #29375c;
+    background-color: rgb(199, 98, 3);
 }
 
 .fon_acreditation {
@@ -339,22 +343,30 @@ header {
     right: 0;
     width: 100%;
     height: 148%;
-    background-image:linear-gradient(to left, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.282)), url("./image/acreditation_fon.jpeg");
+    background-image:linear-gradient(to top, rgba(245, 246, 252, 0.763), rgba(117, 19, 93, 0)), url("./image/PORSHE1.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.4;
+    opacity: 1;
 }
 
 /* Как мы работаем--------------------- */
+.sectionWork {
+    background-color: #0000004a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .work {
     width: 86%;
-    margin-top: 30px;
+    border: 1px solid #ee8006;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
     margin-left: 7%;
     margin-right: 7%;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 10px;
-    background-color: #eef5ff;
+    background-color: #fcfdff;
+    /* background-color: #25292e; */
     /* background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.157)), url("./image/work_fon.jpeg");
     background-repeat: no-repeat;
     background-size: cover; */
@@ -365,6 +377,7 @@ header {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 20px;
+    /* color: white; */
 }
 
 .work__content {
@@ -390,7 +403,7 @@ header {
 .block_dorogi {
     /* border: 1px solid black; */
     height: 100%;
-    width: 25px;
+    width: 20px;
     background-color: #c6d2e0;
     display: flex;
     justify-content: center;
@@ -406,7 +419,7 @@ header {
 .bottom_doroga {
     position: absolute;
     width: 90%;
-    height: 25px;
+    height: 20px;
     background-color: #c6d2e0;
     bottom: 20%;
     display: flex;
@@ -449,7 +462,7 @@ header {
 
 .zagolovok .icon {
     width: 70px;
-    background-color: white;
+    background-color: rgb(248, 191, 1);
     display: flex;
     justify-content: center;
     padding: 10px;
